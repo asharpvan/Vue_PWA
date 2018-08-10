@@ -1,6 +1,10 @@
+
 {
-  "name": "pranavsah",
   "short_name": "asharpvan",
+  "name": "pranavsah",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#4DBA87",
   "icons": [
     {
       "src": "/static/img/icons/android-chrome-192x192.png",
@@ -14,7 +18,15 @@
     }
   ],
   "start_url": "/index.html",
-  "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#4DBA87"
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "https://play.google.com/store/apps/details?id=com.biz2credit.docvault"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://itunes.apple.com/in/app/biz2credit-business-loans/id881447205"
+    }
+  ]
 }
